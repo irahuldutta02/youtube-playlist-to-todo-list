@@ -1,0 +1,4 @@
+PORT=5000
+SERVER_URL="http://localhost:5000"
+NODE_ENV="development" # development or production
+YOUTUBE_API_KEY="your_youtube_api_key_here"
