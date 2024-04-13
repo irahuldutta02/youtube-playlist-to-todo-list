@@ -15,7 +15,7 @@ export function Page() {
     try {
       setState("loading");
       const res = await axios.post(
-        "http://localhost:5000/api/get-videos-from-playlist",
+        `${import.meta.env.VITE_SERVER_URL}/api/get-videos-from-playlist`,
         {
           playlist: url,
         }
